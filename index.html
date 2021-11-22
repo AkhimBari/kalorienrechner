@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <form action="" onsubmit="return false">
+            <h1>
+                Kalorienrechner
+            </h1>
+            <div class="container">
+                <label for="körpergröße">Körpergröße</label>
+            </div>
+            <div class="container">
+                <input type="number" id="koerpergroeße" name="körpergröße">
+            </div>
+            <div class="container">
+                <label for="Alter">Alter</label>
+            </div>
+            <div class="container">
+                <input type="text" id="alter" name="Alter">
+            </div>
+            <div class="container">
+                <label for="Gewicht">Gewicht</label>
+            </div>
+            <div class="container">
+                <input type="text" id="gewicht" name="Gewicht">
+            </div>
+            <div class="container">
+                <label class="containerKoe" for="Körperbau">Körperbau</label>
+            </div>
+            <div class="container">
+                <input type="radio" name="name" id="weiblich">
+                <label for="weiblich">Weiblich</label>
+            </div>
+            <div class="container">
+                <input type="radio" name="name" id="maennlich">
+                <label for="männlich">Männlich</label>
+            </div>
+            <div class="containerwork">
+                <label for="Arbeits-und Freizeitaktivität">Arbeits-und Freizeitaktivität</label>
+            </div>
+            <div class="container">
+                <select name="Arbeits-und Freizeitaktivität" id="activity">
+                    <option value="0.95">Schlafen</option>
+                    <option value="1.2">Nur Sitzen oder Liegen</option>
+                    <option value="1.5">Ausschließlich sitzende Tätigkeit mit wenig oder keiner körperlichen
+                        Aktivität in der Freizeit, z.B. Büroarbeit</option>
+                    <option value="1.7">Sitzende Tätigkeit mit zeitweilig gehender oder stehender Tätigkeit, z.B.
+                        Studierende, Fließbandarbeiter, Laboranten,Kraftfahrer</option>
+                    <option value="1.9">Überwiegend gehende oder stehende Tätigkeit, z.B. Verkäufer, Kellner,
+                        Handwerker, Mechaniker, Hausfrauen</option>
+                    <option value="2.2">Körperlich anstrengende berufliche Arbeit</option>
+            </div>
+            </select>
+            <div class="btn">
+                <button onclick="press()">Berechnen</button>
+            </div>
+            <div>
+                <p>
+                    Grundumsatz:
+                </p>
+                <p id="grundumsatz">
+                    0€
+                </p>
+            </div>
+            <div>
+                <p>
+                    Gesamtumsatz (kcal):
+                </p>
+                <p id="gesamtumsatz">
+                    0€
+                </p>
+            </div>
+            <div>
+                <p>
+                    Gesamtumsatz (kj):
+                </p>
+                <p id="kj">
+                    0€
+                </p>
+            </div>
+        </form>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

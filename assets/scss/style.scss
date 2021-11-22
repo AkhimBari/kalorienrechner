@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    background-image: url("https://cdn.pixabay.com/photo/2015/09/29/15/12/stars-964022_1280.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+form {
+    border: 5px solid purple;
+    background-color: rgb(29, 29, 29);
+    border-radius: 3px;
+    width: 65%;
+    margin: 15% 0% 15% 25%;
+    color: white;
+    font-size: 2rem;
+    box-shadow: 0 0 250px pink;
+h1 {
+ color: rgb(196, 104, 196); 
+margin: 45px 0 0 45px;  
+} .container {
+    margin: 15px 0 0 45px;
+}#koerpergroeße {
+    padding: 20px 180px 20px 180px;
+    background-color: rgb(51, 47, 47);  
+  color: beige;
+}#alter {
+ padding: 20px 180px 20px 180px; 
+  background-color: rgb(51, 47, 47);  
+  color: beige; 
+}button {
+    background-color: rgb(61, 8, 17);
+    border-radius: 7px;
+    color: beige;
+    width: 450px;
+    height: 60px;
+    font-size: 1.5rem;
+    margin: 15px 0;
+}#activity {
+  padding: 20px 30px 20px 40px; 
+  background-color: rgb(51, 47, 47);  
+  color: beige;
+}#gewicht {
+ padding: 20px 30px 20px 40px; 
+  background-color: rgb(51, 47, 47);  
+  color: beige;  
+}.btn {
+    margin: 35px 0;
+}.gesamtumsatz {
+   margin: 35px 0; 
+}#männlich {
+    margin-bottom: 45px;
+}#gesamtumsatz {
+  color: green;
+}#kj{
+color: green;
+}#grundumsatz {
+ color: green;   
+}.containerwork{
+  margin: 35px 0 0 45px  
+}
+}

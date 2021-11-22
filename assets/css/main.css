@@ -1,0 +1,82 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1440px;
+  background-image: url("https://cdn.pixabay.com/photo/2015/09/29/15/12/stars-964022_1280.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  border: 5px solid purple;
+  background-color: #1d1d1d;
+  border-radius: 3px;
+  width: 65%;
+  margin: 15% 0% 15% 25%;
+  color: white;
+  font-size: 2rem;
+  box-shadow: 0 0 250px pink;
+}
+form h1 {
+  color: #c468c4;
+  margin: 45px 0 0 45px;
+}
+form .container {
+  margin: 15px 0 0 45px;
+}
+form #koerpergroeße {
+  padding: 20px 180px 20px 180px;
+  background-color: #332f2f;
+  color: beige;
+}
+form #alter {
+  padding: 20px 180px 20px 180px;
+  background-color: #332f2f;
+  color: beige;
+}
+form button {
+  background-color: #3d0811;
+  border-radius: 7px;
+  color: beige;
+  width: 450px;
+  height: 60px;
+  font-size: 1.5rem;
+  margin: 15px 0;
+}
+form #activity {
+  padding: 20px 30px 20px 40px;
+  background-color: #332f2f;
+  color: beige;
+}
+form #gewicht {
+  padding: 20px 30px 20px 40px;
+  background-color: #332f2f;
+  color: beige;
+}
+form .btn {
+  margin: 35px 0;
+}
+form .gesamtumsatz {
+  margin: 35px 0;
+}
+form #männlich {
+  margin-bottom: 45px;
+}
+form #gesamtumsatz {
+  color: green;
+}
+form #kj {
+  color: green;
+}
+form #grundumsatz {
+  color: green;
+}
+form .containerwork {
+  margin: 35px 0 0 45px;
+}
+
+/*# sourceMappingURL=main.css.map */
